@@ -8,7 +8,7 @@ class vdr::params {
       $vdr_known_hosts        = '/etc/vdr/vdr_known_hosts'
       $service_name           = 'vdr'
       $service_enable         = 'true'
-      $service_ensure         = 'running'
+      $service_ensure         = running
       $service_manage         = 'true'
     }
   }
