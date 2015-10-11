@@ -11,4 +11,5 @@ class vdr::params {
       $service_ensure         = 'running',
       $service_manage         = 'true',
     }
+  }
 }

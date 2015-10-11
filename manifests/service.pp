@@ -13,5 +13,4 @@ class vdr::service inherits vdr {
       hasrestart => true,
     }
   }
-
 }
