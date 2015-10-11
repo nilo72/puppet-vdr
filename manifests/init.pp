@@ -9,5 +9,5 @@ class vdr(
 
       class { '::vdr::install': } ~>
       class { '::vdr::config': } ~>
-      class { '::vdr::service': } ->
+      class { '::vdr::service': }
 }
