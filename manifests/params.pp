@@ -1,6 +1,6 @@
 class vdr::params {
   case $::osfamily {
-    debian: {
+    'Debian', 'debian': {
       $config                 = '/etc/vdr/setup.conf'
       $package_ensure         = latest
       $package_name           = 'vdr'
