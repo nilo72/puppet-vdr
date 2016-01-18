@@ -1,6 +1,7 @@
 class vdr::service inherits vdr {
 
-  if !($service_ensure in [ running, stopped ]) {
+#if !($service_ensure in [ running, stopped ]) {
+  if !('running' in [ running, stopped ]) {
     fail('service_ensure parameter must be running or stopped')
   }
 
